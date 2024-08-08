@@ -83,8 +83,8 @@ const ReviewCard = ({
 
 const MarqueeDemo = () => {
   return (
-    <div className="relative mt-10 flex size-full flex-col items-center justify-center overflow-hidden rounded-lg  pb-5">
-      <div className="mx-auto flex max-w-full flex-col items-center space-y-4 pt-10 text-center">
+    <div className="relative mt-0 flex size-full flex-col items-center justify-center overflow-hidden rounded-lg  pb-5">
+      <div className="mx-auto flex max-w-full flex-col items-center space-y-4 pt-0 text-center">
                   <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-3xl font-bold sm:max-w-[85%] max-w-[85%] lg:max-w-[100%] md:max-w-[100%]">
                     Don&apos;t take our word for it
                   </h2>
@@ -102,8 +102,8 @@ const MarqueeDemo = () => {
           <ReviewCard key={review.username} {...review} />
         ))}
       </Marquee>
-      {/* <div className="dark:from-background pointer-events-none absolute inset-y-0 left-0 w-2/5 bg-gradient-to-r from-white"></div>
-      <div className="dark:from-background pointer-events-none absolute inset-y-0 right-0 w-2/5 bg-gradient-to-l from-white"></div> */}
+      <div className="pointer-events-none absolute inset-y-0 left-0 h-full w-[1.2%] bg-gradient-to-r from-background"></div>
+        <div className="pointer-events-none absolute inset-y-0 right-0 h-full  w-[1.2%] bg-gradient-to-l from-background"></div>  
     </div>
   );
 };
