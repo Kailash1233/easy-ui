@@ -6,18 +6,18 @@ import { Button } from "@/components/ui/button"
 import { Card, CardDescription, CardTitle } from "@/components/ui/card"
 import { Icons } from "@/components/icons"
 
-function DesignPage() {
+function GridsPage() {
   return (
     <div className="flex flex-wrap justify-center gap-4 pb-10">
       <div className="w-full sm:w-1/2 p-4 space-y-4 mt-5">
-        <CardTitle className="text-4xl">Easy Design</CardTitle>
+        <CardTitle className="text-4xl">Easy Grids</CardTitle>
         <CardDescription className="text-lg">
-          Easy Design Landing Page Template
+          Landing Page Template for Grid Lovers
         </CardDescription>
       </div>
       <div className="w-full sm:w-1/2 p-4 border rounded-lg ">
         <video muted loop className="w-full h-auto" autoPlay>
-          <source src="https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/easy-design.mp4" type="video/mp4" />
+          <source src="https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/easy-grids.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="sm:w-1/2 p-4">
@@ -26,7 +26,7 @@ function DesignPage() {
             className="w-1/2 px-4 py-4 mr-2"
             onClick={() => {
               const link = document.createElement('a');
-              link.href = 'https://github.com/DarkInventor/easy-design/archive/refs/heads/main.zip';
+              link.href = 'https://github.com/DarkInventor/easy-grids/archive/refs/heads/main.zip';
               document.body.appendChild(link);
               link.click();
               document.body.removeChild(link);
@@ -39,7 +39,7 @@ function DesignPage() {
             variant="outline"
             type="submit"
             onClick={() =>
-              window.open("https://easy-design-omega.vercel.app/", "_blank")
+              window.open("https://easy-grids.vercel.app/", "_blank")
             }
           >
             Live Preview
@@ -80,7 +80,8 @@ function DesignPage() {
             <li>Next.js</li>                
             <li>Tailwind CSS</li>
             <li>Shadcn UI</li>
-            <li>Headless UI</li>
+            <li>Magic UI</li>
+            <li>Aceternity UI</li>
             <li>Framer Motion</li>
           </ul>
           <h3 className="text-xl font-semibold">Quick Setup</h3>
@@ -108,4 +109,4 @@ function DesignPage() {
   )
 }
 
-export default DesignPage
+export default GridsPage

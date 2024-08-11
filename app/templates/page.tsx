@@ -261,6 +261,16 @@ export default function TemplatePage() {
           <p className="text-base text-gray-600 dark:text-gray-400">Easy Design Landing Page Template</p>
         </MagicCard>
         <MagicCard
+          className="group cursor-pointer flex flex-col items-center justify-center overflow-hidden p-6 lg:p-10 sm:p-0 md:p-10 shadow-2xl"  
+          onClick={() => window.location.href='/ez-grids'}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          <img src="/ez-grids.png" alt="EasyWaitlist" className="w-full h-auto" />
+          <h2 className="mt-4 text-lg font-bold text-gray-800 dark:text-gray-200">Easy Grids</h2>
+          <p className="text-base text-gray-600 dark:text-gray-400">Easy Grids Template for Grid Lovers</p>
+        </MagicCard>
+        <MagicCard
           className="group cursor-pointer flex flex-col items-center justify-center overflow-hidden p-10 shadow-2xl"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
