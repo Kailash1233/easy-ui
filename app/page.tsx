@@ -109,8 +109,35 @@ export default function IndexPage() {
             Trusted by
           </span>
           <AvatarCircles numPeople={99} avatarUrls={avatarUrls} />
-        </div>
+        </div>        
+        <motion.div 
+          className="flex flex-col justify-center items-center mx-auto mt-20"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <span className="text-lg font-semibold animate-pulse">Featured on</span>
+          <a href="https://sourceforge.net/p/easy-ui/" className="dark:hidden">
+            <motion.img 
+              alt="Download Easy UI" 
+              src="https://sourceforge.net/sflogo.php?type=17&amp;group_id=3785509" 
+              width="200"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            />
+          </a>
+          <a href="https://sourceforge.net/p/easy-ui/" className="hidden dark:block">
+            <motion.img 
+              alt="Download Easy UI" 
+              src="https://sourceforge.net/sflogo.php?type=18&amp;group_id=3785509" 
+              width="200"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            />
+          </a>
+        </motion.div>
         <Showcase />
+        
         <MarqueeDemo />
       </div>
 
@@ -127,6 +154,7 @@ export default function IndexPage() {
         <FaqPage />
       </div>
       <CTASection />
+     
     </section>
   )
 }
