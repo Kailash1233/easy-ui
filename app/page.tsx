@@ -111,7 +111,7 @@ export default function IndexPage() {
           <AvatarCircles numPeople={99} avatarUrls={avatarUrls} />
         </div>        
         <motion.div 
-          className="flex flex-col justify-center items-center mx-auto mt-10"
+          className="flex flex-col justify-center items-center mx-auto mt-10 mb-10 lg:mb-0 md:mb-0"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
