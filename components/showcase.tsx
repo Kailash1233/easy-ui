@@ -103,7 +103,7 @@ export default function Showcase() {
         Showcase
       </h2>
       <p className="mx-auto mb-8 text-muted-foreground text-center text-lg font-medium tracking-tight sm:text-lg sm:leading-7">     
-        Dreamers use Easy MVP to build their landing pages.
+        Companies choose Easy UI to build their landing pages.
       </p>
       <div className="relative flex flex-col ">
         <Marquee className="[--duration:40s]">
