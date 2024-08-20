@@ -20,7 +20,7 @@ const reviews = [
     name: "Danny Chen",
     username: "@Danny Chen",
     body: "That is smooth like butter 🔥",
-    img: "https://media.licdn.com/dms/image/D4E03AQEr0MxTYFRcXA/profile-displayphoto-shrink_400_400/0/1712139786929?e=1726704000&v=beta&t=S43JI2aycte_FAPS0PsBsDut3INoOpOjH3FQG5knH3c",
+    img: "https://media.licdn.com/dms/image/v2/D4D03AQGjpcwBbDxD2w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723423682467?e=1729728000&v=beta&t=iYyx1uSH30Xrpu118my_gyhUnHAjBqwXPPx8y_N4sSU",
     link: "https://www.linkedin.com/feed/update/urn:li:ugcPost:7211502593452216320?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7211502593452216320%2C7211509809668366336%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287211509809668366336%2Curn%3Ali%3AugcPost%3A7211502593452216320%29"
   },
   {
