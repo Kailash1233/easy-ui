@@ -61,7 +61,7 @@ function EzPage() {
                   <li>24/7 expert support</li>
                 </ul>
               </div>
-              <div className="sm:hidden flex justify-between items-center">
+              <div className="sm:hidden flex justify-between items-center space-x-4">
                 <div>
                   <h2 className="text-lg font-bold text-gray-800">
                     Need Custom Development?
