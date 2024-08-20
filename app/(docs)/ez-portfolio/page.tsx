@@ -5,6 +5,7 @@ import React from "react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardDescription, CardTitle } from "@/components/ui/card"
+import AdBanner from "@/components/ad-banner"
 import { Icons } from "@/components/icons"
 
 function EzPortfolio() {
@@ -17,6 +18,7 @@ function EzPortfolio() {
         </CardDescription>
         {/* <Badge className="hidden sm:inline-block" variant="default">Built for people willing to integrate chatbot or develop AI app.</Badge> */}
       </div>
+      <AdBanner />
       <div className="w-full sm:w-1/2 p-4 border rounded-lg ">
         <video muted loop className="w-full h-auto" autoPlay>
           <source

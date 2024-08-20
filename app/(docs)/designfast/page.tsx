@@ -5,6 +5,7 @@ import React from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardDescription, CardTitle } from "@/components/ui/card"
 import { Icons } from "@/components/icons"
+import AdBanner from "@/components/ad-banner"
 
 function DesignfastPage() {
   return (
@@ -15,6 +16,7 @@ function DesignfastPage() {
           Minimal template designed for Service business
         </CardDescription>
       </div>
+      <AdBanner />
       <div className="w-full sm:w-1/2 p-4 border rounded-lg ">
         <video muted loop className="w-full h-auto" autoPlay>
           <source src="https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/designfast.mp4" type="video/mp4" />

@@ -5,6 +5,7 @@ import React from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardDescription, CardTitle } from "@/components/ui/card"
 import { Icons } from "@/components/icons"
+import AdBanner from "@/components/ad-banner"
 
 function StoryPage() {
   return (
@@ -15,9 +16,13 @@ function StoryPage() {
           Easy Template for Building a Newsletter
         </CardDescription>
       </div>
+      <AdBanner />
       <div className="w-full sm:w-1/2 p-4 border rounded-lg ">
         <video muted loop className="w-full h-auto" autoPlay>
-          <source src="https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/easy-newsletter.mp4" type="video/mp4" />
+          <source
+            src="https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/easy-newsletter.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
       <div className="sm:w-1/2 p-4">
@@ -25,11 +30,12 @@ function StoryPage() {
           <Button
             className="w-1/2 px-4 py-4 mr-2"
             onClick={() => {
-              const link = document.createElement('a');
-              link.href = 'https://github.com/DarkInventor/easy-newsletter/archive/refs/heads/main.zip';
-              document.body.appendChild(link);
-              link.click();
-              document.body.removeChild(link);
+              const link = document.createElement("a")
+              link.href =
+                "https://github.com/DarkInventor/easy-newsletter/archive/refs/heads/main.zip"
+              document.body.appendChild(link)
+              link.click()
+              document.body.removeChild(link)
             }}
           >
             Download Template
@@ -52,8 +58,8 @@ function StoryPage() {
             Why Should I Use This Template?
           </h2>
           <p>
-            Looking for a simple yet powerful website template for your Newsletter? 
-            Our template is designed with the latest tech stack,
+            Looking for a simple yet powerful website template for your
+            Newsletter? Our template is designed with the latest tech stack,
             offering a sleek, modern design that’s easy to use and configure.
             Here’s why this template is perfect for you:
           </p>
@@ -68,7 +74,7 @@ function StoryPage() {
           <h3 className="text-xl font-semibold">Features</h3>
           <ul className="list-disc pl-5 space-y-2">
             <li>Header Section</li>
-            <li>Hero Section</li>           
+            <li>Hero Section</li>
             <li>Testimonial Section</li>
             <li>Call To Action Section</li>
             <li>Footer Section</li>
@@ -77,10 +83,10 @@ function StoryPage() {
           <h3 className="text-xl font-semibold">Tech Stack</h3>
           <ul className="list-disc pl-5 space-y-2">
             <li>React</li>
-            <li>Next.js</li>                
+            <li>Next.js</li>
             <li>Tailwind CSS</li>
-            <li>Shadcn UI</li>  
-            <li>Magic UI</li>           
+            <li>Shadcn UI</li>
+            <li>Magic UI</li>
           </ul>
           <h3 className="text-xl font-semibold">Quick Setup</h3>
           <ul className="list-disc pl-5 space-y-2">

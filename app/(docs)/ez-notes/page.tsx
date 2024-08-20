@@ -5,6 +5,7 @@ import React from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardDescription, CardTitle } from "@/components/ui/card"
 import { Icons } from "@/components/icons"
+import AdBanner from "@/components/ad-banner"
 
 function NotesPage() {
   return (
@@ -12,12 +13,16 @@ function NotesPage() {
       <div className="w-full sm:w-1/2 p-4 space-y-4 mt-5">
         <CardTitle className="text-4xl">Easy Notes</CardTitle>
         <CardDescription className="text-lg">
-            Easy Landing Page template for Notes + Mini Notion Type Editor
+          Easy Landing Page template for Notes + Mini Notion Type Editor
         </CardDescription>
       </div>
+      <AdBanner />
       <div className="w-full sm:w-1/2 p-4 border rounded-lg ">
         <video muted loop className="w-full h-auto" autoPlay>
-          <source src="https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/easy-notes.mp4" type="video/mp4" />
+          <source
+            src="https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/easy-notes.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
       <div className="sm:w-1/2 p-4">
@@ -25,11 +30,12 @@ function NotesPage() {
           <Button
             className="w-1/2 px-4 py-4 mr-2"
             onClick={() => {
-              const link = document.createElement('a');
-              link.href = 'https://github.com/DarkInventor/easy-notes/archive/refs/heads/main.zip';
-              document.body.appendChild(link);
-              link.click();
-              document.body.removeChild(link);
+              const link = document.createElement("a")
+              link.href =
+                "https://github.com/DarkInventor/easy-notes/archive/refs/heads/main.zip"
+              document.body.appendChild(link)
+              link.click()
+              document.body.removeChild(link)
             }}
           >
             Download Template
@@ -52,10 +58,10 @@ function NotesPage() {
             Why Should I Use This Template?
           </h2>
           <p>
-            Looking for a simple yet powerful Micro SaaS Notes App template for your Next idea/project/startup? 
-            Our template is designed with the latest tech stack,
-            offering a sleek, modern design that’s easy to use and configure.
-            Here’s why this template is perfect for you:
+            Looking for a simple yet powerful Micro SaaS Notes App template for
+            your Next idea/project/startup? Our template is designed with the
+            latest tech stack, offering a sleek, modern design that’s easy to
+            use and configure. Here’s why this template is perfect for you:
           </p>
           <ul className="list-disc pl-5 space-y-2 ">
             <li>✅ Save 100+ hours of work </li>
@@ -68,7 +74,7 @@ function NotesPage() {
           <h3 className="text-xl font-semibold">Features</h3>
           <ul className="list-disc pl-5 space-y-2">
             <li>Header Section</li>
-            <li>Hero Section</li>           
+            <li>Hero Section</li>
             <li>Testimonial Section</li>
             <li>Call To Action Section</li>
             <li>Footer Section</li>
@@ -77,10 +83,10 @@ function NotesPage() {
           <h3 className="text-xl font-semibold">Tech Stack</h3>
           <ul className="list-disc pl-5 space-y-2">
             <li>React</li>
-            <li>Next.js</li>                
+            <li>Next.js</li>
             <li>Tailwind CSS</li>
-            <li>Shadcn UI</li>  
-            <li>Framer Motion</li>           
+            <li>Shadcn UI</li>
+            <li>Framer Motion</li>
           </ul>
           <h3 className="text-xl font-semibold">Quick Setup</h3>
           <ul className="list-disc pl-5 space-y-2">
