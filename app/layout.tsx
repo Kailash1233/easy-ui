@@ -58,7 +58,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             content="https://www.easyui.pro/"
           />
           <meta property="twitter:image" content="https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/og.png" />
-          
+          <script defer src="https://cloud.umami.is/script.js" data-website-id="7ad28072-1308-433d-abce-2e92a70ab64d"></script>
         </Head>
         <body
           className={cn(
