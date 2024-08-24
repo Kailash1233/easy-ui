@@ -311,6 +311,16 @@ export default function TemplatePage() {
           <p className="text-base text-gray-600 dark:text-gray-400">Easy Template for building E-commerce Websites</p>
         </MagicCard>
         <MagicCard
+          className="group cursor-pointer flex flex-col items-center justify-center overflow-hidden p-6 lg:p-10 sm:p-0 md:p-10 shadow-2xl"  
+          onClick={() => window.location.href='/ez-tmp4'}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          <img src="https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/easy-tmp4.png" alt="EasyTemplate4" className="w-full h-auto" />
+          <h2 className="mt-4 text-lg font-bold text-gray-800 dark:text-gray-200">Easy Template 4</h2>
+          <p className="text-base text-gray-600 dark:text-gray-400">Easy Template for building high converting SaaS Landing Page</p>
+        </MagicCard>
+        <MagicCard
           className="group cursor-pointer flex flex-col items-center justify-center overflow-hidden p-10 shadow-2xl"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
