@@ -13,7 +13,7 @@ function EzPage4() {
       <div className="w-full sm:w-1/2 p-4 space-y-4 mt-5">
         <CardTitle className="text-4xl">Easy Template 5</CardTitle>
         <CardDescription className="text-lg">
-            Easy Template for building high quality SaaS Landing Page
+            Easy Template for building high quality Landing Page
         </CardDescription>
       </div>
       <AdBanner />
