@@ -2,6 +2,7 @@ import "@/styles/globals.css"
 import { Metadata } from "next"
 import Head from "next/head"
 
+import Script from 'next/script'
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
@@ -74,6 +75,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
             {children}
             <SiteFooter className="border-t" />
             <TailwindIndicator />
+            <Script
+            src="https://cloud.umami.is/script.js"
+            strategy="afterInteractive"
+            data-website-id="7ad28072-1308-433d-abce-2e92a70ab64d"
+            defer
+          />
           </ThemeProvider>
         </body>
       </html>
