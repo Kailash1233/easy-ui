@@ -96,7 +96,7 @@ function EzRed() {
             <li>React</li>
             <li>Next.js</li>
             <li>Tailwind CSS</li>
-            <li>Aceternity UI</li>
+            <li>Shadcn UI</li>
             <li>Framer Motion</li>
           </ul>
           <h3 className="text-xl font-semibold">Quick Setup</h3>
